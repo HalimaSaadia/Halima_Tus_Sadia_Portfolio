@@ -41,7 +41,7 @@ const Banner = () => {
                   
                 </h1>
               </div>
-              <p className="mb-5 text-3xl text-[#e0fbfc]">Front End Developer (MERN stack)</p>
+              <p className="mb-5 text-3xl text-[#e0fbfc]">FRONT END DEVELOPER (MERN STACK)</p>
               <a href={resume} download>
                 <button className="btn  bg-[#14191E] rounded hover:border-[#A6ADBB] px-10 text-white  border border-[#A6ADBB]">
                   Get Resume <FaDownload />
