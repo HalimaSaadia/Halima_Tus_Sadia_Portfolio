@@ -13,7 +13,7 @@ const Skills = () => {
         SKILLS
       </h1>
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10 ">
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body ">
               <div className="flex items-center">
@@ -35,7 +35,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -57,7 +57,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -80,7 +80,7 @@ const Skills = () => {
         </div>
         
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -102,7 +102,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -124,7 +124,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -146,7 +146,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -168,7 +168,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -190,7 +190,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -212,7 +212,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -233,7 +233,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div>
+
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -255,7 +256,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -275,7 +276,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -294,7 +295,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div>
+
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
@@ -313,7 +315,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div>
+         
+        <div className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">

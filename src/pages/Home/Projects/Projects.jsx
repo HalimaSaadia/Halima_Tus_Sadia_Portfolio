@@ -17,7 +17,7 @@ const Projects = () => {
       <div className=" w-full">
         <div id="" className="w-full">
           <div className="grid lg:grid-cols-2 py-12 mb-5 space-y-5 lg:space-y-0 lg:space-x-5 xl:space-x-0">
-            <div data-aos="fade-right" data-aos-once="false">
+            <div data-aos="fade-up-right" data-aos-once="false">
               <div className="text-justify px-5">
                 <h3 className="text-2xl md:text-3xl font-semibold text-white mb-5">
                   <span className="text-[#ee6c4d] font-bold">DreamFinder </span>{" "}
@@ -77,7 +77,7 @@ const Projects = () => {
             </div>
            
             <div className="px-5 md:px-0 order-first flex items-center lg:order-last">
-              <div data-aos="fade-left" data-aos-once="false">
+              <div data-aos="fade-up-left" data-aos-once="false">
               <img src={dreamFinder} className="h-[95%] mb-10 lg:mb-0 w-full " alt="" />
               </div>
             </div>
@@ -86,7 +86,7 @@ const Projects = () => {
         </div>
         <div id="" className=" relative w-full">
           <div className="grid  lg:grid-cols-2 pb-16 pt-8 mb-5 space-y-5 lg:space-y-0 lg:space-x-5 xl:space-x-0">
-            <div data-aos="fade-left"   data-aos-once="false">
+            <div data-aos="fade-up-left"   data-aos-once="false">
             <div className="  px-5">
               <h3 className="text-2xl md:text-3xl font-semibold text-white mb-5">
                 <span className="text-[#ee6c4d]  font-bold">NexusNews </span>
@@ -141,7 +141,7 @@ const Projects = () => {
             </div>
             </div>
             <div className="px-5 md:px-0 order-first  flex items-center">
-              <div data-aos="fade-right"   data-aos-once="false">
+              <div data-aos="fade-up-right"   data-aos-once="false">
               <img src={nexusNews} className="mb-10 lg:mb-0" alt="" />
               </div>
             </div>
@@ -151,7 +151,7 @@ const Projects = () => {
         <div id="" className=" relative w-full">
           <div className="grid lg:grid-cols-2 py-12 mb-5  lg:space-x-5 xl:space-x-0">
             <div className="px-5 md:px-0 order-first lg:order-last ">
-             <div data-aos="fade-left"   data-aos-once="false">
+             <div data-aos="fade-up-left"   data-aos-once="false">
              <img
                 src={ServiceSquad}
                 className="w-full sm:w-auto mx-auto"
@@ -159,7 +159,7 @@ const Projects = () => {
               />
              </div>
             </div>
-           <div data-aos="fade-right" data-aos-once="false">
+           <div data-aos="fade-up-up-right" data-aos-once="false">
            <div className="  px-5 ">
               <h3 className="text-2xl md:text-3xl font-semibold text-white mb-5">
                 <span className="text-[#ee6c4d]  font-bold">ServiceSquad </span>
