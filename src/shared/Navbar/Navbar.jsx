@@ -58,7 +58,7 @@ const Navbar = () => {
       <div data-aos="zoom-out-down" data-aos-duration="1000">
          <div className="fixed top-0 z-50 w-full bg-[#14191E89]">
       
-      <div className="navbar  lg:border-b lg:border-[#A6ADBB] max-w-7xl mx-auto">
+      <div className="navbar   max-w-7xl mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
               <div

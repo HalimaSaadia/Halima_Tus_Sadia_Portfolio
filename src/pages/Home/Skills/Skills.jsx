@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="max-w-7xl my-20 mb-32 mx-auto p-3 md:px-10 xl:px-0 overflow-x-clip"
+      className="max-w-7xl my-10 mb-32 mx-auto p-3 md:px-10 xl:px-0 overflow-x-clip"
     >
       <h1 className="text-5xl text-[#98c1d9] font-bold text-center my-10">
         SKILLS
