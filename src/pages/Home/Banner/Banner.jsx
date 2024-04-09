@@ -2,6 +2,7 @@ import banner from "../../../assets/banner.png";
 import { FaDownload } from "react-icons/fa";
 import profile from "../../../assets/profile/profile1.png";
 import resume from "../../../assets/resume-halima-tus-sadia.pdf";
+import "./banner.css"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,8 +25,9 @@ const Banner = () => {
             <img
               src={profile}
               alt="Profile Image"
-              className="md:h-96 h-72 mb-5 md:mb-0 rounded-full ring ring-[#A6ADBB] mx-auto"
+              className="md:h-96 h-72 mb-5 md:mb-0 rounded-full ring ring-[#A6ADBB] mx-auto "
             />
+              <div className="inner-circle"></div>
           </div>
           <div className="flex-1">
             <div data-aos="fade-up" data-aos-duration="1000">
@@ -36,7 +38,7 @@ const Banner = () => {
                 <h1 className="mb-5 text-6xl font-bold text-[#FFFCF4]">
                   HALIMA TUS SADIA
                 </h1>
-                <h1 className="absolute top-0 left-0 mb-5 text-6xl font-bold text-[#ee6c4d]">
+                <h1 className="absolute top-0 left-0 mb-5 text-6xl font-bold text-[rgb(238,108,77)]">
                   <Typewriter typeSpeed={200} loop={false} words={['HALIMA TUS SADIA']} />
                   
                 </h1>

@@ -1,0 +1,169 @@
+.skillBox {
+
+   /* This makes the div a perfect circle */
+
+ /* Hide anything that goes outside the circle */
+  
+    /* Animation */
+    animation: spin-border 4s linear infinite;
+  }
+  
+  /* Keyframes for the border spin animation */
+  @keyframes spin-border {
+    0% {
+      transform: rotate(0deg); /* Start with no rotation */
+    }
+    100% {
+      transform: rotate(360deg); /* Rotate a full circle (360 degrees) */
+    }
+  }
+  
+  /* Pseudo-element to create the border */
+  .circle::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px); /* Extend border width beyond circle */
+    height: calc(100% + 10px);
+    border: 5px solid transparent; /* Transparent border to start */
+    border-radius: 50%; /* Match the circle's border radius */
+    box-sizing: border-box; /* Include border in element's dimensions */
+    animation: border-colors 4s linear infinite; /* Apply animation to change border color */
+  }
+  
+
+
+
+/* .top {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(
+      90deg,
+      transparent 50%,
+      rgb(238,108,77, 0.5),
+      rgb(238,108,77)
+    );
+  }
+  
+  .bottom {
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background: linear-gradient(
+      90deg,
+      rgb(238,108,77, 0.5),
+      rgb(238,108,77),
+      transparent 50%
+    );
+  }
+  
+  .right {
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 30%,
+      rgba(0, 255, 255, 0.5),
+      rgb(0, 255, 255)
+    );
+  }
+  
+  .left {
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 255, 255, 0.5),
+      rgb(0, 255, 255),
+      transparent 70%
+    );
+  }
+  
+  .top {
+    animation: animateTop 3s ease-in-out infinite;
+  }
+  
+  .bottom {
+    animation: animateBottom 3s ease-in-out infinite;
+  }
+  
+  .right {
+    animation: animateRight 3s ease-in-out infinite;
+  }
+  
+  .left {
+    animation: animateLeft 3s ease-in-out infinite;
+  }
+  
+  @keyframes animateTop {
+    25% {
+      width: 100%;
+      opacity: 1;
+    }
+  
+    30%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateBottom {
+    0%,
+    50% {
+      opacity: 0;
+      width: 0;
+    }
+  
+    75% {
+      opacity: 1;
+      width: 100%;
+    }
+  
+    76%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateRight {
+    0%,
+    25% {
+      opacity: 0;
+      height: 0;
+    }
+  
+    50% {
+      opacity: 1;
+      height: 100%;
+    }
+  
+    55%,
+    100% {
+      height: 100%;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateLeft {
+    0%,
+    75% {
+      opacity: 0;
+      bottom: 0;
+      height: 0;
+    }
+  
+    100% {
+      opacity: 1;
+      height: 100%;
+    }
+  }
+   */
+
+ 

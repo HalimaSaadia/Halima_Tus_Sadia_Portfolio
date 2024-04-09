@@ -44,6 +44,15 @@ const Navbar = () => {
       </li>
       <li>
         <a
+          onClick={() => setSelectedItem("skills")}
+          className={`${selectedItem === "skills" && "text-white"}`}
+          href="#contact"
+        >
+          CONTACT
+        </a>
+      </li>
+      <li>
+        <a
           onClick={() => setSelectedItem("e&e")}
           className={`${selectedItem === "e&e" && "text-white"}`}
           href="#e&e"
@@ -54,9 +63,9 @@ const Navbar = () => {
     </>
   );
   return (
-  <div className="overflow-x-clip">
+  <div className="overflow-x-clip fixed top-0 w-full z-50">
       <div data-aos="zoom-out-down" data-aos-duration="1000">
-         <div className="fixed top-0 z-50 w-full bg-[#14191E89]">
+         <div className="  w-full bg-[#14191E89]">
       
       <div className="navbar   max-w-7xl mx-auto">
           <div className="navbar-start">

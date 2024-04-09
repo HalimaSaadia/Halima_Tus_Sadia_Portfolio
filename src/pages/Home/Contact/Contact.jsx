@@ -22,7 +22,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="mt-20">
+    <div className="mt-20" id="contact">
         <h1 className="text-5xl text-[#98c1d9] font-bold text-center -mb-12">CONTACT ME</h1>
       <div className="lg:flex">
         <div className="lg:flex-1 ">

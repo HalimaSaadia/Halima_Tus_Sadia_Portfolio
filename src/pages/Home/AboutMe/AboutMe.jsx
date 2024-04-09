@@ -10,12 +10,7 @@ const AboutMe = () => {
     <div id="about-me" className="py-20 bg-[#2C2E33] max-w-7xl  mx-auto">
       <div className="lg:flex">
         <div className="flex-1">
-          {/* <img src={programmer} alt="" /> */}
-          
-
-    
         <Lottie  animationData={data} loop={true} />
-
         </div>
         <div className="flex-1 grid h-full lg:pl-20 p-5 md:p-10 lg:pr-10 xl:pr-0 items-center">
           <div className="  ">
@@ -26,7 +21,7 @@ const AboutMe = () => {
               HALIMA TUS SADIA
             </span>
             , an aspiring MERN stack developer passionately committed to
-            delivering exceptional results and exceeding expectations. I am a recent diploma Engineer in Computer technology.During my academic journey, I diligently honed my skills in MongoDB, Express JS, React JS, and Node JS, forming a robust foundation in web development. I have successfully executed two full-stack projects utilising the MERN stack, showcasing my ability to conceptualise and deliver solutions that address real-world problems effectively. Additionally, I have hands-on experience with Next JS, having contributed to a collaborative project involving six individuals, where I gained valuable insights into teamwork dynamics while furthering my expertise in web development technologies. In conclusion, I am enthusiastic about applying my skills and knowledge to contribute positively to future projects and endeavors.
+            delivering exceptional results and exceeding expectations. <br />  <br />I am a recent diploma Engineer in Computer technology.During my academic journey, I diligently honed my skills in MongoDB, Express JS, React JS, and Node JS, forming a robust foundation in web development. I have successfully executed two full-stack projects utilising the MERN stack, showcasing my ability to conceptualise and deliver solutions that address real-world problems effectively. Additionally, I have hands-on experience with Next JS, having contributed to a collaborative project involving six individuals, where I gained valuable insights into teamwork dynamics.. <br />  <br />  In conclusion, I am enthusiastic about applying my skills and knowledge to contribute positively to future projects and endeavors.
 
           </p>
           <div className="space-y-1 md:w-[80%]">
