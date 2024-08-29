@@ -1,0 +1,4 @@
+nav a.active {
+    color: #ff0000; /* Change to your desired active link color */
+    font-weight: bold; /* Optionally make the active link bold */
+  }

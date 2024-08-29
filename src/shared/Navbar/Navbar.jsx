@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -63,7 +63,7 @@ const Navbar = () => {
     </>
   );
   return (
-  <div className="overflow-x-clip fixed top-0 w-full z-50">
+  <div className="overflow-x-clip fixed top-0 w-full z-50 border-b border-[#5c5f64]">
       <div data-aos="zoom-out-down" data-aos-duration="1000">
          <div className="  w-full bg-[#14191E89]">
       

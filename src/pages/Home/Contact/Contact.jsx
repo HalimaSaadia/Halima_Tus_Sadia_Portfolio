@@ -10,7 +10,6 @@ const Contact = () => {
   const publicKey = "RLnISWCOThnXlgLua";
   const handelSubmit = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
       (result) => {
         console.log(result);
@@ -71,6 +70,7 @@ const Contact = () => {
               </div>
               <div className="form-control mt-6">
                 <button
+
                   type="submit"
                   className="btn  bg-[#14191E] rounded-none hover:border-[#A6ADBB] px-10 text-white  border border-[#A6ADBB]"
                 >
