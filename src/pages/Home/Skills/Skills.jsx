@@ -134,7 +134,7 @@ const Skills = () => {
           <span className="left absolute"></span>
         </div>
 
-        <div  className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative ">
+        <div data-aos-duration="1000" data-aos="zoom-in-right"  className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative ">
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
