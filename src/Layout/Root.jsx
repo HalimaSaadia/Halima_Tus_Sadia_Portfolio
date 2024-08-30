@@ -5,8 +5,10 @@ import Footer from '../shared/Footer/Footer';
 
 
 
+
+
 const Root = () => {
-   
+  
     return (
         <div className='text-[#d6d6d6f1]'>
             <Navbar />

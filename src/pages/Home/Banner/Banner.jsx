@@ -7,6 +7,7 @@ import "./banner.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
+import LazyLoad from "react-lazy-load";
 AOS.init();
 
 const Banner = () => {
@@ -21,31 +22,23 @@ const Banner = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content w-full">
         <div className="w-full flex flex-col lg:flex-row-reverse  items-center py-20">
-        <div className="lg:flex-1">
-          <div className=" h-max w-max mx-auto relative rounded-full ">
-            <img
-              src={profile}
-              alt=""
-              className="rounded-full w-60 md:w-auto md:max-w-96 mx-auto"
-            />
-            <div
-              id="CEO-Profile-Spinner"
-              className="after:lg:ml-[150px] after:md:ml-40 after:ml-[160px]"
-            ></div>
+          <div className="lg:flex-1">
+            <div className=" h-max w-max mx-auto relative rounded-full ">
+              <LazyLoad>
+                <img
+                  src={profile}
+                  alt=""
+                  className="rounded-full w-60 md:w-auto md:max-w-96 mx-auto"
+                />
+              </LazyLoad>
+
+              <div
+                id="CEO-Profile-Spinner"
+                className="after:lg:ml-[150px] after:md:ml-40 after:ml-[160px]"
+              ></div>
+            </div>
           </div>
 
-         
-       
-        </div>
-          {/* <div className="flex-1  ">
-            <div className="imageBox">
-              <img
-                src={profile}
-                alt="Profile Image"
-                className="md:h-96 h-72 mb-5 md:mb-0 rounded-full ring ring-[#A6ADBB] mx-auto "
-              />
-            </div>
-          </div> */}
           <div className="flex-1 mt-8 lg:mt-0">
             <div data-aos="fade-up" data-aos-duration="1000">
               <h1 className="mb-5 text-5xl font-bold text-[#98c1d9]">
