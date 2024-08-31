@@ -160,6 +160,7 @@ const Projects = () => {
               <div data-aos="fade-up-left" data-aos-once="false">
                 <img
                   src={ServiceSquad}
+                  style={{filter: "drop-shadow(5px 5px 10px #98c1d9)"}}
                   className="w-full sm:w-auto mx-auto"
                   alt=""
                 />
