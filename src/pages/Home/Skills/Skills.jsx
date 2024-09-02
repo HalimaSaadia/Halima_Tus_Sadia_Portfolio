@@ -346,7 +346,7 @@ const Skills = () => {
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
-                <div className=" max-w-fit p-3 rounded-full shadow-2xl  ">
+                <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
                   <FaHtml5 className="text-5xl text-[#DD4B25] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
