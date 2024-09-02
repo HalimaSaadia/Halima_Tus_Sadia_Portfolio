@@ -242,7 +242,7 @@ const Skills = () => {
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
-                <div className=" max-w-fit p-3 rounded-full shadow-2xl  ">
+                <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
                   <SiNextui className="text-5xl text-black skillBox" />
                 </div>
                 <div className="px-3 flex-1">
