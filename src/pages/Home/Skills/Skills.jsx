@@ -370,7 +370,7 @@ const Skills = () => {
           <div className="card  shadow-xl rounded-none">
             <div className="card-body">
               <div className="flex items-center">
-                <div className=" max-w-fit p-3 rounded-full shadow-2xl  ">
+                <div className=" max-w-fit p-3 rounded-full shadow-2xl  border border-gray-700">
                   <FaBootstrap className="text-5xl bg-white text-[#8512F3] skillBox rounded-full" />
                 </div>
                 <div className="px-3 flex-1">
