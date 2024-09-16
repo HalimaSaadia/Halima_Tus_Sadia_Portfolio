@@ -2,8 +2,9 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="e&e" className="text-[#ebebebf1]">
-      <footer className="footer md:flex  p-10 bg-[#15191E] dark:bg-base-300  ">
+    <div className="bg-[url('https://i.postimg.cc/3NKDkdvW/abstrack-Technoloy-Wave.webp')] bg-center bg-cover">
+      <div id="e&e" className="text-[#ebebebf1]">
+      <footer className="footer md:flex  p-10 bg-[#15191E] dark:bg-[#15191e] dark:bg-opacity-95 bg-opacity-95  ">
         <nav className="flex-1">
           <header className="text-xl text-white font-bold">
             Browse Sections
@@ -47,7 +48,7 @@ const Footer = () => {
           </p>
         </nav>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-[#191E24] dark:bg-base-200 text-base-content border-base-300">
+      <footer className="footer px-10 py-4 border-t bg-[#191E24] dark:bg-[#191e24ef] backdrop-blur-sm text-base-content border-base-300">
         <aside className="items-center grid-flow-col text-[#ebebebf1]">
           <p>Copyright © 2024 - All right reserved</p>
         </aside>
@@ -66,6 +67,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
+    </div>
     </div>
   );
 };
