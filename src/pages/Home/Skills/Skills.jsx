@@ -25,20 +25,20 @@ const Skills = () => {
       className="max-w-7xl my-10 mb-32 mx-auto p-3 md:px-10 xl:px-0 overflow-x-clip"
  
     >
-      <h1 className="text-5xl text-[#98c1d9] font-bold text-center my-10">
+      <h1 className="text-3xl text-[#98c1d9] font-bold text-center my-10">
         SKILLS
       </h1>
-      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10">
+      <div className="grid md:grid-cols-3 gap-5  xl:grid-cols-4 lg:gap-10">
 
         <div  data-aos-duration="3000" data-aos="zoom-in-right"   className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body ">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full border border-gray-700  shadow-2xl">
-                  <FaReact className="text-5xl text-[#02B4CA] skillBox" />
+                  <FaReact className="text-3xl text-[#02B4CA] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     React Js
                   </h3>
                   <progress
@@ -50,21 +50,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full border border-gray-700 shadow-2xl  ">
-                  <TbBrandNextjs className="text-5xl text-black skillBox" />
+                  <TbBrandNextjs className="text-3xl text-black skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Next JS
                   </h3>
                   <progress
@@ -76,21 +73,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+      
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full  shadow-2xl border border-gray-700 ">
-                  <IoLogoJavascript className="text-5xl text-[#E8D44D] skillBox rounded-full" />
+                  <IoLogoJavascript className="text-3xl text-[#E8D44D] skillBox rounded-full" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Javascript
                   </h3>
                   <progress
@@ -102,21 +96,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <FaNodeJs className="text-5xl text-[#75BB5A] skillBox" />
+                  <FaNodeJs className="text-3xl text-[#75BB5A] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Node JS
                   </h3>
                   <progress
@@ -128,21 +119,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right"  className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <SiExpress className="text-5xl text-black skillBox" />
+                  <SiExpress className="text-3xl text-black skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Express JS
                   </h3>
                   <progress
@@ -154,21 +142,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl  border border-gray-700">
-                  <SiMongodb className="text-5xl text-[#00E762] skillBox" />
+                  <SiMongodb className="text-3xl text-[#00E762] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     MongoDB
                   </h3>
                   <progress
@@ -180,21 +165,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <IoLogoFirebase className="text-5xl text-[#E5921D] skillBox" />
+                  <IoLogoFirebase className="text-3xl text-[#E5921D] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Firebase
                   </h3>
                   <progress
@@ -206,21 +188,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <SiTailwindcss className="text-5xl text-[#4DB6AC] skillBox" />
+                  <SiTailwindcss className="text-3xl text-[#4DB6AC] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Tailwind
                   </h3>
                   <progress
@@ -232,21 +211,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <SiNextui className="text-5xl text-black skillBox" />
+                  <SiNextui className="text-3xl text-black skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Next UI
                   </h3>
                   <progress
@@ -258,21 +234,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <SiDaisyui className="text-5xl text-[#1AD1A5] skillBox" />
+                  <SiDaisyui className="text-3xl text-[#1AD1A5] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     DaisyUI
                   </h3>
                   <progress
@@ -284,21 +257,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl  border border-gray-700">
-                  <FaGithub className="text-5xl text-black bg-white rounded-full skillBox" />
+                  <FaGithub className="text-3xl text-black bg-white rounded-full skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Github
                   </h3>
                   <progress
@@ -310,21 +280,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <SiMui className="text-5xl text-[#007FFF] skillBox" />
+                  <SiMui className="text-3xl text-[#007FFF] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Material UI
                   </h3>
                   <progress
@@ -336,21 +303,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl border border-gray-700 ">
-                  <FaHtml5 className="text-5xl text-[#DD4B25] skillBox" />
+                  <FaHtml5 className="text-3xl text-[#DD4B25] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">HTML</h3>
+                  <h3 className="text-lg  font-bold text-white mb-2">HTML</h3>
                   <progress
                     className="progress"
                     value={90}
@@ -360,21 +324,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl  border border-gray-700">
-                  <FaBootstrap className="text-5xl bg-white text-[#8512F3] skillBox rounded-full" />
+                  <FaBootstrap className="text-3xl bg-white text-[#8512F3] skillBox rounded-full" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">
+                  <h3 className="text-lg  font-bold text-white mb-2">
                     Bootstrap
                   </h3>
                   <progress
@@ -386,21 +347,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
 
         <div data-aos-duration="3000" data-aos="zoom-in-right" className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
-            <div className="card-body">
+            <div className="card-body p-3">
               <div className="flex items-center">
                 <div className=" max-w-fit p-3 rounded-full shadow-2xl  border border-gray-700">
-                  <FaCss3 className="text-5xl text-[#42A5F5] skillBox" />
+                  <FaCss3 className="text-3xl text-[#42A5F5] skillBox" />
                 </div>
                 <div className="px-3 flex-1">
-                  <h3 className="text-2xl  font-bold text-white mb-2">CSS</h3>
+                  <h3 className="text-lg  font-bold text-white mb-2">CSS</h3>
                   <progress
                     className="progress"
                     value={90}
@@ -410,10 +368,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <span className="top absolute"></span>
-          <span className="right absolute"></span>
-          <span className="bottom absolute"></span>
-          <span className="left absolute"></span>
+         
         </div>
       </div>
     </div>
