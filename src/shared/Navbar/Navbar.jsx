@@ -1,8 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [selectedItem, setSelectedItem] = useState("home");
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const handleScroll = () => {
+    if (window.scrollY > lastScrollY) {
+      // If scrolling down
+      setIsVisible(false);
+    } else {
+      // If scrolling up
+      setIsVisible(true);
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
 
   const list = (
     <>
@@ -63,7 +84,9 @@ const Navbar = () => {
     </>
   );
   return (
-  <div className="overflow-x-clip fixed top-0 w-full z-50 border-b border-[#5c5f64] backdrop-blur-md">
+  <div className={`overflow-x-clip fixed top-0 w-full z-50 duration-500 border-b border-[#5c5f64] backdrop-blur-md ${
+        isVisible ? "top-0" : "-top-24"
+      } `}>
       <div data-aos="zoom-out-down" data-aos-duration="1000">
          <div className="  w-full bg-[#14191E89]">
       
