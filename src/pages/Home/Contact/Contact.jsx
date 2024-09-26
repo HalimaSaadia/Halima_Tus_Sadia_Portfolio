@@ -32,7 +32,7 @@ const Contact = () => {
             <form
               ref={form}
               onSubmit={handelSubmit}
-              className="card-body w-full  p-5 md:p-10 shadow-2xl flex flex-col "
+              className="card-body w-full  p-5 md:p-10  flex flex-col "
             >
               <div className="form-control">
                 <input
