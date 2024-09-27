@@ -4,11 +4,13 @@
 
 html{
     scroll-behavior: smooth;
+
 }
 
 body{
     background-color: #2C2E33;
-   
+    scroll-behavior: smooth;
+
 }
 
 #CEO-Profile-Spinner {

@@ -85,7 +85,7 @@ const Navbar = () => {
   );
   return (
     <div
-      className={`overflow-x-clip fixed top-0 w-full z-50 duration-500 border-b border-[#5c5f64] backdrop-blur-md ${
+      className={`overflow-x-clip fixed  w-full z-50 duration-500 border-b border-[#5c5f64] backdrop-blur-md ${
         isVisible ? "top-0" : "-top-24"
       } `}
     >
