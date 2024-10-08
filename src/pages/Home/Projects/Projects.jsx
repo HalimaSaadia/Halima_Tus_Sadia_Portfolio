@@ -79,9 +79,9 @@ const Projects = () => {
             <div className="px-5 md:px-0 order-first flex items-center lg:order-last">
               <div data-aos="fade-up-left" data-aos-once="false">
                 <img
-                  style={{ filter: "drop-shadow(5px 5px 10px #98c1d9)" }}
+                  style={{ filter: "drop-shadow(5px 5px 10px #98c1d98a)" }}
                   src={dreamFinder}
-                  className="h-[95%] mb-10 lg:mb-0 w-full drop-shadow-2xl shadow-blue-500"
+                  className="h-[95%] mb-10 lg:mb-0 w-full drop-shadow-xl shadow-[#98c1d98a]"
                   alt=""
                 />
               </div>
@@ -148,7 +148,7 @@ const Projects = () => {
             </div>
             <div className="px-5 md:px-0 order-first  flex items-center">
               <div data-aos="fade-up-right" data-aos-once="false">
-                <img style={{filter: "drop-shadow(5px 5px 10px #98c1d9)"}} src={nexusNews} className="mb-10 lg:mb-0" alt="" />
+                <img style={{filter: "drop-shadow(5px 5px 10px #98c1d98a)"}} src={nexusNews} className="mb-10 lg:mb-0" alt="" />
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ const Projects = () => {
               <div data-aos="fade-up-left" data-aos-once="false">
                 <img
                   src={ServiceSquad}
-                  style={{filter: "drop-shadow(5px 5px 10px #98c1d9)"}}
+                  style={{filter: "drop-shadow(5px 5px 10px #98c1d98a)"}}
                   className="w-full sm:w-auto mx-auto"
                   alt=""
                 />
