@@ -14,7 +14,9 @@ const AboutMe = () => {
         </div>
         <div className="flex-1 grid h-full lg:pl-20 p-5 md:p-10 lg:pr-10 xl:pr-0 items-center">
           <div className="  ">
-          <h1 className="text-5xl text-[#98c1d9] font-bold">ABOUT ME</h1>
+          <h1 style={{
+        backgroundImage: 'conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)',
+      }}  className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max">ABOUT ME</h1>
           <p className="text-justify my-5  ">
             I am{" "}
             <span className="text-xl text-[#ee6c4d] tracking-widest font-bold">
