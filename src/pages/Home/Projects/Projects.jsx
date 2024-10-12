@@ -8,11 +8,17 @@ import AOS from "aos";
 const Projects = () => {
   AOS.init();
   return (
-    <div id="projects" className="max-w-7xl mx-auto my-5 overflow-x-hidden">
+    <div id="projects" className="max-w-7xl mx-auto my-24 overflow-x-hidden">
       <div className="px-5 ">
-        <h1 className="text-5xl text-[#98c1d9] text-center font-bold my-10 pb-3">
-          PROJECTS
-        </h1>
+      <h1
+              style={{
+                backgroundImage:
+                  "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
+              }}
+              className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max mx-auto"
+            >
+             PROJECTS
+            </h1>
       </div>
       <div className=" w-full">
         <div id="" className="w-full">

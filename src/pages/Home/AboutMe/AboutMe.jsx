@@ -1,68 +1,82 @@
-
 import { FaLocationDot, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { IoMailSharp } from "react-icons/io5";
 import Lottie from "lottie-react";
 
 const AboutMe = () => {
-
-
   return (
     <div id="about-me" className="py-20 bg-[#2C2E33] max-w-7xl  mx-auto">
       <div className="lg:flex">
         <div className="flex-1">
-        <Lottie  animationData={data} loop={true} />
+          <Lottie animationData={data} loop={true} />
         </div>
         <div className="flex-1 grid h-full lg:pl-20 p-5 md:p-10 lg:pr-10 xl:pr-0 items-center">
           <div className="  ">
-          <h1 style={{
-        backgroundImage: 'conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)',
-      }}  className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max">ABOUT ME</h1>
-          <p className="text-justify my-5  ">
-            I am{" "}
-            <span className="text-xl text-[#ee6c4d] tracking-widest font-bold">
-              HALIMA TUS SADIA
-            </span>
-            , an aspiring MERN stack developer passionately committed to
-            delivering exceptional results and exceeding expectations. <br />  <br />I am a recent diploma Engineer in Computer technology.During my academic journey, I diligently honed my skills in MongoDB, Express JS, React JS, and Node JS, forming a robust foundation in web development. I have successfully executed two full-stack projects utilising the MERN stack, showcasing my ability to conceptualise and deliver solutions that address real-world problems effectively. Additionally, I have hands-on experience with Next JS, having contributed to a collaborative project involving six individuals, where I gained valuable insights into teamwork dynamics.. <br />  <br />  In conclusion, I am enthusiastic about applying my skills and knowledge to contribute positively to future projects and endeavors.
-
-          </p>
-          <div className="space-y-1 md:w-[80%]">
-            <h3 className="">
-              <span className="text-white font-bold">
-                <FaLocationDot className="inline" /> &nbsp;Location :
-              </span>{" "}
-              Feni, Bangladesh
-            </h3>
-            <h3 className="">
-              <span className="text-white font-bold">
-                <FaPhone className="inline" /> &nbsp;Phone :
-              </span>{" "}
-              +880 1880504689
-            </h3>
-            <h3 className="">
-              <span className="text-white font-bold">
-                <IoMailSharp className="inline" /> &nbsp;Email :{" "}
+            <h1
+              style={{
+                backgroundImage:
+                  "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
+              }}
+              className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max"
+            >
+              ABOUT ME
+            </h1>
+            <p className="text-justify my-5">
+              I am{" "}
+              <span className="text-xl text-[#ee6c4d] tracking-widest font-bold">
+                HALIMA TUS SADIA
               </span>
-              halimasaadiya66@gmail.com
-            </h3>
-            <h3 className="">
-              <span className="text-white font-bold">
-                <FaGithub className="inline" /> &nbsp;Github :{" "}
-              </span>
-              <a href="https://github.com/HalimaSaadia">
-                https://github.com/HalimaSaadia
-              </a>
-            </h3>
-            <h3 className="">
-              <span className="text-white font-bold">
-                {" "}
-                <FaLinkedin className="inline" /> &nbsp;Linkedin :{" "}
-              </span>
-              <a href="https://www.linkedin.com/in/halimasaadia">
-                https://www.linkedin.com/in/halimasaadia
-              </a>
-            </h3>
-          </div>
+              , an aspiring MERN stack developer passionately committed to
+              delivering exceptional results and exceeding expectations. <br />{" "}
+              <br />I am a recent diploma Engineer in Computer technology.During
+              my academic journey, I diligently honed my skills in MongoDB,
+              Express JS, React JS, and Node JS, forming a robust foundation in
+              web development. I have successfully executed two full-stack
+              projects utilising the MERN stack, showcasing my ability to
+              conceptualise and deliver solutions that address real-world
+              problems effectively. Additionally, I have hands-on experience
+              with Next JS, having contributed to a collaborative project
+              involving six individuals, where I gained valuable insights into
+              teamwork dynamics.. <br /> <br /> In conclusion, I am enthusiastic
+              about applying my skills and knowledge to contribute positively to
+              future projects and endeavors.
+            </p>
+            <div className="space-y-1 md:w-[80%]">
+              <h3 className="">
+                <span className="text-white font-bold">
+                  <FaLocationDot className="inline" /> &nbsp;Location :
+                </span>{" "}
+                Feni, Bangladesh
+              </h3>
+              <h3 className="">
+                <span className="text-white font-bold">
+                  <FaPhone className="inline" /> &nbsp;Phone :
+                </span>{" "}
+                +880 1880504689
+              </h3>
+              <h3 className="">
+                <span className="text-white font-bold">
+                  <IoMailSharp className="inline" /> &nbsp;Email :{" "}
+                </span>
+                halimasaadiya66@gmail.com
+              </h3>
+              <h3 className="">
+                <span className="text-white font-bold">
+                  <FaGithub className="inline" /> &nbsp;Github :{" "}
+                </span>
+                <a href="https://github.com/HalimaSaadia">
+                  https://github.com/HalimaSaadia
+                </a>
+              </h3>
+              <h3 className="">
+                <span className="text-white font-bold">
+                  {" "}
+                  <FaLinkedin className="inline" /> &nbsp;Linkedin :{" "}
+                </span>
+                <a href="https://www.linkedin.com/in/halimasaadia">
+                  https://www.linkedin.com/in/halimasaadia
+                </a>
+              </h3>
+            </div>
           </div>
         </div>
       </div>
