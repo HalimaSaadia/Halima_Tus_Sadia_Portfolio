@@ -25,10 +25,16 @@ const Skills = () => {
       className="max-w-7xl my-10 mb-32 mx-auto p-3 md:px-10 xl:px-0 overflow-x-clip"
  
     >
-      <h1 className="text-3xl text-[#98c1d9] font-bold text-center my-10">
+         <h1
+          style={{
+            backgroundImage:
+              "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
+          }}
+          className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max mx-auto"
+        >
         SKILLS
-      </h1>
-      <div className="grid md:grid-cols-3 gap-5  xl:grid-cols-4 lg:gap-10">
+        </h1>
+      <div className="grid md:grid-cols-3 gap-5  xl:grid-cols-4 lg:gap-10 mt-16">
 
         <div  data-aos-duration="3000" data-aos="zoom-in-right"   className="hover:scale-110 ease-in-out duration-500 hover:shadow-xl hover:shadow-[#98c1d9]/50 relative border border-gray-700 rounded-lg">
           <div className="card  shadow-xl rounded-none">
