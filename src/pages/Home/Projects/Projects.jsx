@@ -10,15 +10,15 @@ const Projects = () => {
   return (
     <div id="projects" className="max-w-7xl mx-auto my-24 overflow-x-hidden">
       <div className="px-5 ">
-      <h1
-              style={{
-                backgroundImage:
-                  "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
-              }}
-              className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max mx-auto"
-            >
-             PROJECTS
-            </h1>
+        <h1
+          style={{
+            backgroundImage:
+              "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
+          }}
+          className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max mx-auto"
+        >
+          PROJECTS
+        </h1>
       </div>
       <div className=" w-full">
         <div id="" className="w-full">
@@ -154,7 +154,12 @@ const Projects = () => {
             </div>
             <div className="px-5 md:px-0 order-first  flex items-center">
               <div data-aos="fade-up-right" data-aos-once="false">
-                <img style={{filter: "drop-shadow(5px 5px 10px #98c1d98a)"}} src={nexusNews} className="mb-10 lg:mb-0" alt="" />
+                <img
+                  style={{ filter: "drop-shadow(5px 5px 10px #98c1d98a)" }}
+                  src={nexusNews}
+                  className="mb-10 lg:mb-0"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -166,7 +171,7 @@ const Projects = () => {
               <div data-aos="fade-up-left" data-aos-once="false">
                 <img
                   src={ServiceSquad}
-                  style={{filter: "drop-shadow(5px 5px 10px #98c1d98a)"}}
+                  style={{ filter: "drop-shadow(5px 5px 10px #98c1d98a)" }}
                   className="w-full sm:w-auto mx-auto"
                   alt=""
                 />

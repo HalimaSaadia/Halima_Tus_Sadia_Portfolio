@@ -22,12 +22,20 @@ const Contact = () => {
   };
   return (
     <div className="mt-20" id="contact">
-        <h1 className="text-5xl text-[#98c1d9] font-bold text-center -mb-12">CONTACT ME</h1>
+           <h1
+          style={{
+            backgroundImage:
+              "conic-gradient(#98C1D9 0%, #98C1D9 33%, #EE6C4D 33%, #EE6C4D 66%, #56CCC4 66%, #56CCC4 99%)",
+          }}
+          className="text-5xl text-[#98c1d9] font-bold bg-clip-text text-transparent w-max mx-auto"
+        >
+          CONTACT ME
+        </h1>
       <div className="lg:flex">
-        <div className="lg:flex-1 ">
+        <div className="lg:flex-1  ">
           <Lottie animationData={data} loop={true} />
         </div>
-        <div className="lg:flex-1 grid items-center lg:px-5">
+        <div className="lg:flex-1 grid items-center lg:px-5 ">
           <div className="card shrink-0 w-full grid items-center rounded-none h-full ">
             <form
               ref={form}
